@@ -1,1 +1,1 @@
-# https://github.com/PAVEL-MIHAI/OLYA/tree/gh-pages
+# https://github.com/PAVEL-MIHAI/OLYA/
