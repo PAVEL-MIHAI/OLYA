@@ -1,0 +1,216 @@
+
+@font-face {
+  font-family: mer-bold;
+  src: url('./assets/fonts/Merriweather-Bold.ttf');
+}
+@font-face {
+  font-family: int;
+  src: url('./assets/fonts/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: int-bold;
+  src: url('./assets/fonts/Inter-Bold.ttf');
+}
+/* ------ мед.скрол------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0px 16px;
+   font-family: int;
+   font-size: 18px;
+}
+.portfolio-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+
+.portfolio-img img{
+  border: 5px solid gold
+}
+  
+  
+  @media (max-width: 768px) {
+    .portfolio-img img{
+      width: 100%; 
+    }
+  }
+  @media (max-width: 360px) {
+      .portfolio-img img{
+        width: 100%; 
+      }
+    }
+
+
+/* -----header------------------------------- */
+.header-container {
+  height: 90px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+ul {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+li {
+  display: inline;
+  font-size: 20px;
+}
+@media (max-width: 360px) {
+  li {
+    font-size: 16px;
+  }
+}
+
+.en {
+  color: #BDAE82;
+}
+
+.nav-list {
+  padding-inline-start: 0px;
+
+
+}
+/*-------hero-------------------------------------*/
+.section-hero {
+  background: url('assets/img/picture3.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+} 
+ 
+.hero-text {
+ height: 700px;
+ display: flex;
+ align-items: flex-start;
+ padding-left: 30px;
+}
+
+@media (max-width: 360px) {
+  .hero-text{
+    height: 500px;
+  }
+}
+
+
+h1 {
+  color: #fff;
+  font-size: 60px;
+  font-family: mer-bold;
+}
+
+/*------olya----------------------------------------*/
+.section-olya{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+.h2-indent {
+  font-size: 28px;
+  font-family: mer-bold;
+  color: #BDAE82;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+  background: url('./assets/svg/section-title-line.svg');
+  background-repeat: no-repeat;
+  background-position: center 162px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  width: 160px;
+  background-color: black;
+} 
+
+/*---------pavel-------------------------------*/
+.pavel-image-1 {
+  width: 805px;
+}
+.section-pavel {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+
+
+/* ----------olya pavel------------------------------ */
+.section-olya-pavel {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  }
+
+.section-olya-pavel h2 {
+  width: 320px;
+}
+
+
+
+/* ------------footer--------------------------- */
+.container-footer {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding: 0px 20px;
+  font-size: 20px;
+}
+.footer-logo{
+  width: 188px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ----------interactivity-------------------------- */
+a:hover,
+span:hover {
+  color: #BDAE82;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.footer-logo img:hover {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: grab;
+  background-color: white;
+  color: black;
+}
+.section-video img:hover {
+ border: 10px solid rgb(248, 2, 2);
+ cursor: pointer;
+}
+
