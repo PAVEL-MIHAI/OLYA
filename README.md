@@ -1,4 +1,4 @@
-# https://github.com/PAVEL-MIHAI/OLYA/
+# https://github.com/PAVEL-MIHAI/OLYA/Olya/
 
 # Olya
 
